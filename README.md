@@ -6,4 +6,4 @@ This repository is the official implementation of "Benchmarking and Evaluation o
 
 
 
-We referred to several open source repositories for CNN and ViT based models 
+We referred to several open source repositories for CNN and [ViT](https://github.com/lucidrains/vit-pytorch) based models 
