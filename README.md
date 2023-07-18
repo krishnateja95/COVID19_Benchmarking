@@ -12,6 +12,7 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 
 | Model | Accuracy | F1-score | MACs | FLOPs | CPU Latency | GPU Latency | No. of Params | 
+|:------|:---------|:--------:|-----:|-------|:------------|:-----------:|---------------|
 | ALexNet |  |  |  |  |  |  |  |
 | ResNet50  |  |  |  |  |  |  |  |
 | ViT-16 |  |  |  |  |  |  |  |
