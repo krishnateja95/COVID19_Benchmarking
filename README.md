@@ -7,3 +7,14 @@ We implemented CNN and ViT models in such a way a single model file contains the
 
 
 We referred to several open source repositories for [CNN](https://github.com/pytorch/vision/tree/main/torchvision/models) and [ViT](https://github.com/lucidrains/vit-pytorch) models 
+
+## Results
+
+
+| Model | Accuracy | F1-score | MACs | FLOPs | CPU Latency | GPU Latency | No. of Params | 
+|:--------------------------------------------------------------------------------------------------------|:--------------|:-----------------------|
+| ALexNet |  |  |  |  |  |  |  |
+| ResNet50  |  |  |  |  |  |  |  |
+| ViT-16 |  |  |  |  |  |  |  |
+
+
