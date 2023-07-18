@@ -1,4 +1,4 @@
-# COVID19_Benchmarking
+# Benchmarking Deep Learning Models on COVID19 Dataset
 
 This repository is the official implementation of "Benchmarking and Evaluation of Convolutional Neural Networks and Vision Transformers on COVID-19 Dataset" 
 
