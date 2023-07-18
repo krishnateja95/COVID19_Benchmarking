@@ -14,7 +14,13 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 | Model | Accuracy | F1-score | MACs | FLOPs | CPU Latency | GPU Latency | No. of Params | 
 |:------|:---------|:--------:|-----:|-------|:------------|:-----------:|---------------|
 | ALexNet |  |  |  |  |  |  |  |
-| ResNet50  |  |  |  |  |  |  |  |
+| Twins  |  |  |  |  |  |  |  |
 | ViT-16 |  |  |  |  |  |  |  |
-
-
+| Swin |  |  |  |  |  |  |  |
+| T2T |  |  |  |  |  |  |  |
+| MobileViT |  |  |  |  |  |  |  |
+| MobileNet |  |  |  |  |  |  |  |
+| MobileNetV2 |  |  |  |  |  |  |  |
+| MobileNetV3 |  |  |  |  |  |  |  |
+| EfficientNet |  |  |  |  |  |  |  |
+| EfficientNetV2 |  |  |  |  |  |  |  |
