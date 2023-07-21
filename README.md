@@ -11,16 +11,11 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 ## Results
 
 
-| Model | Accuracy | F1-score | MACs | FLOPs | CPU Latency | GPU Latency | No. of Params | Paper URL | GitHub URL | 
-|:------|:---------|:--------:|-----:|-------|:------------|:-----------:|---------------|---------------|---------------|
-| ALexNet |  |  |  |  |  |  |  | |  |
-| Twins  |  |  |  |  |  |  |  |  |  |
-| ViT-16 |  |  |  |  |  |  |  |  |  |
-| Swin |  |  |  |  |  |  |  |  |  |
-| T2T |  |  |  |  |  |  |  |  |  |
-| MobileViT |  |  |  |  |  |  |  |  |  |
-| MobileNet |  |  |  |  |  |  |  |  |  |
-| MobileNetV2 |  |  |  |  |  |  |  |  |  |
-| MobileNetV3 |  |  |  |  |  |  |  |  |  |
-| EfficientNet |  |  |  |  |  |  |  |  |  |
-| EfficientNetV2 |  |  |  |  |  |  |  |  |  |
+| Model-Name | Best-Top-1 | Best-F1-score | Best-Loss | Best-Precision | Best-Recall | Best-FPR | Best-FNR | Best-MCC | MACs | FLOPS | Number-of-Parameters | CPU-latency | GPU-latency  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+
