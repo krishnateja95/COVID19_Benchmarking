@@ -13,9 +13,6 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 | Model-Name | Best-Top-1 | Best-F1-score | Best-Loss | Best-Precision | Best-Recall | Best-FPR | Best-FNR | Best-MCC | MACs | FLOPS | Number-of-Parameters | CPU-latency | GPU-latency  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
-| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
-| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
-| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
-| ResNet18 | 0.85 | 0.78 | 0.12 | 89 | 66 | 66 | 11 | 23 | 34 | 23 | 3 | 50 | 10 |
+| ResNet18 |  |  |  |  |  |  |  | | |  |  |  |  |
+
 
