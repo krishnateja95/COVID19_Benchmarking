@@ -23,7 +23,7 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 | ResNet18 |  |  |  |  |  |  |  | | |  |  |  |  |
 
 
-| \textbf{Model}    | \textbf{Top-1 Accuracy (\%)} | \textbf{Top-1 Accuracy Epoch} | \textbf{Recall (\%)} | \textbf{Recall Epoch} | \textbf{Best Loss} | \textbf{Best Loss Epoch} |
+| Model    | Top-1 Accuracy (\%) | Top-1 Accuracy Epoch | Recall (\%) | Recall Epoch | Best Loss | Best Loss Epoch |
 |-------------------|------------------------------|-------------------------------|----------------------|-----------------------|--------------------|--------------------------|
 | DenseNet-161      | 95.61                        | 410                           | 0.96                 | 410                   | 0.21               | 226                      |
 | Vgg-13-bn         | 95.27                        | 230                           | 0.95                 | 230                   | 0.16               | 39                       |
