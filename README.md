@@ -16,6 +16,12 @@ This repository is the official implementation of ["ConVision Benchmark"](https:
 - [CNN Models](#cnn-models)
 - [ViT Models](#vit-models)
 - [Getting Started](#getting-started)
+- [Accuracy Results](#accuracy-results-on-covid-19-dataset)
+- [Computational Results](#computational-results-on-covid-19-dataset)
+
+
+
+
 
 
 
