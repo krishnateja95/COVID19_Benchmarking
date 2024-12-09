@@ -64,7 +64,6 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 ## CNN Models
 
 | Models |   |  |  |
-
 |-----------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------|------------------------------------------|
 | AlexNet | ConvNext  | DenseNet | EfficientNet |
 | Ghost-resnet | GhostNetv2 | Inception | MNASNet |
