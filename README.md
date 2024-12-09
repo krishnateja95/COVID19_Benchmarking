@@ -4,7 +4,7 @@
 
 🏣 **Affliation:** Iowa State University, Ames, IA
 
-This repository is the official implementation of "ConVision Benchmark" paper 
+This repository is the official implementation of "[ConVision Benchmark](https://www.mdpi.com/2673-2688/5/3/56)" paper 
 
 
 We implemented CNN and ViT models in such a way a single model file contains the entire description of model without having to import any extra module (except torch and torchvision). For example, efficientnet_b0.py file contains the full code for Efficientnet_b0 model. One can directly use the file for any Computer vision application.  
