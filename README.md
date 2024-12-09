@@ -2,7 +2,7 @@
  
  🧑‍💻 **Authors:** Shreyas Bangalore Vijayakumar, Krishna Teja Chitty-Venkata, Kanishk Arya and Arun K. Somani
 
-🏣 **Affliation:** Iowa State University, Ames, IA
+🏣 **Affiliation:** Iowa State University, Ames, IA
 
 This repository is the official implementation of ["ConVision Benchmark"](https://www.mdpi.com/2673-2688/5/3/56) paper 
 
@@ -62,6 +62,13 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 
 ## CNN Models
+
+| AlexNet | ConvNext  | DenseNet | EfficientNet |
+|-----------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------|------------------------------------------|
+| Ghost-resnet | GhostNetv2 | Inception | MNASNet |
+| MobileNet | NFNet             | RegNet | ResNet |
+| ResNext | Wide-ResNet | ShuffleNetv2 | SqueezeNet  |
+| VGG | | | |
 
 
 ## ViT Models
