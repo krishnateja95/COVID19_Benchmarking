@@ -111,7 +111,9 @@ pip install -r requirements.txt
 Curate Dataset
 ```bash
 ├── Dataset
+
 │   ├── Train
+
 │   ├──   ├── Class 1
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
@@ -119,6 +121,7 @@ Curate Dataset
 ..
 ..
 │   ├──   ├──   ├── Image n
+
 │   ├──   ├── Class 2
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
@@ -134,11 +137,88 @@ Curate Dataset
 ..
 ..
 │   ├──   ├──   ├── Image n
+
 ..
 ..
-│   ├──   ├── Class n
+│   ├──   ├── Class m
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+
 │   ├── Test
+│   ├──   ├── Class 1
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+│   ├──   ├── Class 2
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+│   ├──   ├── Class 3
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+..
+..
+│   ├──   ├── Class m
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
 │   ├── Val
+│   ├──   ├── Class 1
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+│   ├──   ├── Class 2
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+│   ├──   ├── Class 3
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
+..
+..
+│   ├──   ├── Class m
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
 ```
 
 Example to run ***ResNet18*** from ***ResNet_family*** in ***CNN_Models***  
