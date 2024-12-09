@@ -117,35 +117,16 @@ Curate Dataset
 │   ├──   ├── Class 1
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
 │   ├──   ├── Class 2
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
-│   ├──   ├── Class 3
-│   ├──   ├──   ├── Image 1
-│   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
-│   ├──   ├──   ├── Image n
-
-..
-..
 │   ├──   ├── Class m
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
 
@@ -153,71 +134,35 @@ Curate Dataset
 │   ├──   ├── Class 1
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
 │   ├──   ├── Class 2
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
-│   ├──   ├── Class 3
-│   ├──   ├──   ├── Image 1
-│   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
-│   ├──   ├──   ├── Image n
-
-..
-..
 │   ├──   ├── Class m
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
+
 
 │   ├── Val
 │   ├──   ├── Class 1
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
 │   ├──   ├── Class 2
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
 
-│   ├──   ├── Class 3
-│   ├──   ├──   ├── Image 1
-│   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
-│   ├──   ├──   ├── Image n
-
-..
-..
 │   ├──   ├── Class m
 │   ├──   ├──   ├── Image 1
 │   ├──   ├──   ├── Image 2
-│   ├──   ├──   ├── Image 3
-..
-..
 │   ├──   ├──   ├── Image n
+
 
 ```
 
