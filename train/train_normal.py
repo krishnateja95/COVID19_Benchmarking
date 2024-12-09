@@ -35,10 +35,8 @@ from utils.save_dictionary import store_dict
 from utils.memory_utils import estimate_memory_training, estimate_memory_inference
 
 parser = argparse.ArgumentParser(description='Pytorch COVID19 Training')
-
-
-parser.add_argument('--model_name',   type=str, default = 'ResNet18')
-parser.add_argument('--model_family', type=str, default = 'ResNet_family')
+parser.add_argument('--model_name',   type=str, default = 'MobileNetV1')
+parser.add_argument('--model_family', type=str, default = 'Mobilenet_family')
 parser.add_argument('--model_type',   type=str, default = 'CNN_Models')
 
 parser.add_argument('--using_bn', default=True, type=bool, help='Use batch normalization')
@@ -51,7 +49,7 @@ parser.add_argument('--train_root', type=str, default = '/work/arun/COVID19_rese
 parser.add_argument('--test_root', type=str, default  = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Test/')
 parser.add_argument('--val_root', type=str, default   = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Val')
 
-parser.add_argument('--epochs', default=500, type=int, help='Number of Epochs')
+parser.add_argument('--epochs', default=400, type=int, help='Number of Epochs')
 parser.add_argument('--batch_size', default=256, type=int, help='Batch Size')
 parser.add_argument('--workers', default=3, type=int, help='Number of Workers')
 
@@ -105,21 +103,21 @@ def main():
     start_epoch = 0
     
     
-    save_dict = {'best_loss':            math.inf,
+    save_dict = {'best_loss':            -math.inf,
                  'best_loss_epoch':      0,
-                 'best_top1':            -math.inf,
+                 'best_top1':            0,
                  'best_top1_epoch':      0,
-                 'best_f1':              -math.inf,
+                 'best_f1':              0,
                  'best_f1_epoch':        0,    
-                 'best_precision':       -math.inf,
+                 'best_precision':       0,
                  'best_precision_epoch': 0,
-                 'best_recall':          -math.inf,
+                 'best_recall':          0,
                  'best_recall_epoch':    0,
-                 'best_FPR':             math.inf,
+                 'best_FPR':             -math.inf,
                  'best_FPR_epoch':       0,    
-                 'best_FNR':             math.inf,
+                 'best_FNR':             -math.inf,
                  'best_FNR_epoch':       0,          
-                 'best_MCC':             -math.inf,
+                 'best_MCC':             0,
                  'best_MCC_epoch':       0
                  }       
     
@@ -129,6 +127,8 @@ def main():
         model, optimizer, save_dict, start_epoch, avg_train_time = load_state(args, model, optimizer, save_dict, None, evaluate=False)
     
     print("start_epoch", start_epoch)
+    
+    print("avg_train_time", avg_train_time)
     
     cudnn.benchmark = True
     
@@ -200,6 +200,8 @@ def main():
     
     export_dictionary_to_csv(test_save_dict,'results/', 'test_data.csv')
     export_dictionary_to_csv(test_save_dict,'results/' + str(args.model_type) + '/' + str(args.model_family) + '/', 'test_data.csv')
+    
+    print("avg_train_time", avg_train_time)
     
 def export_dictionary_to_csv(dictionary, foldername, filename):
     
