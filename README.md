@@ -61,7 +61,7 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 
 
-## Results on COVID-19 Dataset
+## Accuracy Results on COVID-19 Dataset
 
 
 <!-- | Model-Name | Best-Top-1 | Best-F1-score | Best-Loss | Best-Precision | Best-Recall | Best-FPR | Best-FNR | Best-MCC | MACs | FLOPS | Number-of-Parameters | CPU-latency | GPU-latency  |
