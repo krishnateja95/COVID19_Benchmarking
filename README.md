@@ -36,6 +36,11 @@ Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) have shown r
 
 
 
+<p align="center">
+  <img src="docs/Outline.png" alt="llama-bench" width="300px">
+</p>
+
+
 ## 📌 Citation
 If you find this repository useful, please consider citing our paper:
 
