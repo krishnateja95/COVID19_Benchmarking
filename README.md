@@ -11,19 +11,11 @@ This repository is the official implementation of ["ConVision Benchmark"](https:
 
 ## Table of Contents
 
-- [About](#about)
+- [About](#📌-About)
 - [Citation](#citation)
-- [Changelog](#changelog)
-- [Supported Models](#supported-models)
-- [Supported Training Approaches](#supported-training-approaches)
-- [Provided Datasets](#provided-datasets)
-- [Requirement](#requirement)
+- [CNN Models](#changelog)
+- [ViT Models](#supported-models)
 - [Getting Started](#getting-started)
-- [Projects using LLaMA Factory](#projects-using-llama-factory)
-- [License](#license)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
-
 
 
 
