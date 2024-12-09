@@ -1,6 +1,10 @@
-# Benchmarking Deep Learning Models on COVID19 Chest X-ray Image Classification 
+# ConVision Benchmark: A Contemporary Framework to Benchmark CNN and ViT Models
+ 
+ 🧑‍💻 **Authors:** Shreyas Bangalore Vijayakumar, Krishna Teja Chitty-Venkata, Kanishk Arya and Arun K. Somani
 
-This repository is the official implementation of "Benchmarking and Evaluation of Convolutional Neural Networks and Vision Transformers on COVID-19 Chest X-ray Image Classification" 
+🏣 **Affliation:** Iowa State University, Ames, IA
+
+This repository is the official implementation of "ConVision Benchmark" paper 
 
 
 We implemented CNN and ViT models in such a way a single model file contains the entire description of model without having to import any extra module (except torch and torchvision). For example, efficientnet_b0.py file contains the full code for Efficientnet_b0 model. One can directly use the file for any Computer vision application.  
