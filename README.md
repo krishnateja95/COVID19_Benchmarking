@@ -73,7 +73,15 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 
 ## ViT Models
-
+| Models |   |  |  |
+|----------------------------------------------|---------------------------------------|--------------------------------------------------------------------|------------------------------------------|
+| BoTNet \cite{srinivas2021bottleneck}         | CaiT \cite{touvron2021going}          | CCT \cite{hassani2021escaping}                                     | CrossFormer \cite{wang2021crossformer}   |
+| CrossViT \cite{chen2021crossvit}             | CvT \cite{wu2021cvt}                  | DeepViT \cite{zhou2021deepvit}                                     | EdgeNeXt \cite{maaz2022edgenext}         |
+| EfficientFormer \cite{li2022efficientformer} | FocalTransformer \cite{yang2021focal} | GC-ViT \cite{hatamizadeh2023global}                                | LeViT \cite{graham2021levit}             |
+| LVT \cite{yang2021lite}                      | Max-ViT \cite{tu2022maxvit}           | MLP-Mixer \cite{tolstikhin2021mlpmixer}                            | MobileFormer \cite{chen2022mobileformer} |
+| PiT \cite{heo2021rethinking}                 | PoolFormer \cite{yu2022metaformer}    | PVT \cite{wang2021pyramid}                                         | Region-ViT \cite{chen2022regionvit}      |
+| SepViT \cite{li2023sepvit}                   | Swin \cite{liu2021swin}               | T2T-ViT \cite{yuan2021tokens}                                      | TNT \cite{han2021transformer}            |
+| Twins \cite{chu2021twins}                    | VAN \cite{guo2022visual}              | \multicolumn{2}{l}{Vision Transformer \cite{vaswani2017attention}} |
 
 
 ## Getting Started
