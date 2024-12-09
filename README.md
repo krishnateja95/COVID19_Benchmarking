@@ -108,6 +108,36 @@ Install Requirements
 pip install -r requirements.txt 
 ```
 
+Example to run ResNet18 from ResNet_family in CNN_Models  
+```bash
+python train/train.py \
+            --model_name 'ResNet18' \
+            --model_family 'ResNet_family' \
+            --model_type 'CNN_Models' \
+            --using_bn \
+            --port 29500 \
+            --model_dir '' \
+            --train_root '' \
+            --test_root '' \
+            --val_root '' \
+            --epochs 500 \
+            --batch_size 256 \
+            --workers 3 \
+            --lr_mode 'cosine' \
+            --base_lr 0.1 \
+            --warmup_epochs 25 \
+            --warmup_lr 0.0 \
+            --targetlr 0.0 \
+            --momentum 0.9 \
+            --weight_decay 0.00005 \
+            --using_moving_average \
+            --last_gamma \
+            --print_freq 100 \
+            --evaluate \
+```
+
+
+
 
 ## Accuracy Results on COVID-19 Dataset
 

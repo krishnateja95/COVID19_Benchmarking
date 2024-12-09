@@ -39,8 +39,8 @@ def get_COVID10_dataloader(args):
 
 if __name__ == '__main__':
 
-    train_path = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Train'
-    test_path = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Test'
-    val_path = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Val'
+    train_path = ""
+    test_path = ""
+    val_path = ""
     
     _,_,_ = get_COVID10_dataloader(train_path, test_path, val_path)
