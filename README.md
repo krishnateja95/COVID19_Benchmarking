@@ -11,10 +11,10 @@ This repository is the official implementation of ["ConVision Benchmark"](https:
 
 ## Table of Contents
 
-- [About](#📌-About)
-- [Citation](#citation)
-- [CNN Models](#changelog)
-- [ViT Models](#supported-models)
+- [About](#-about)
+- [Citation](#-citation)
+- [CNN Models](#cnn-models)
+- [ViT Models](#vit-models)
 - [Getting Started](#getting-started)
 
 
@@ -52,6 +52,14 @@ We implemented CNN and ViT models in such a way a single model file contains the
 
 
 We referred to several open source repositories for [CNN](https://github.com/pytorch/vision/tree/main/torchvision/models) and [ViT](https://github.com/lucidrains/vit-pytorch) models 
+
+
+
+## Getting Started
+
+
+
+
 
 ## Results on COVID-19 Dataset
 
