@@ -108,7 +108,7 @@ Install Requirements
 pip install -r requirements.txt 
 ```
 
-Curate Dataset
+Curate the target Dataset in the following format:
 ```bash
 ├── Dataset
 
@@ -195,6 +195,35 @@ python train/train.py \
 ```
 
 
+
+
+Example to run ***CvT_13_Model*** from ***CvT_family*** in ***ViT_Models***  
+```bash
+python train/train.py \
+            --model_name 'CvT_13_Model' \
+            --model_family 'CvT_family' \
+            --model_type 'ViT_Models' \
+            --using_bn \
+            --port 29500 \
+            --model_dir '' \
+            --train_root '' \
+            --test_root '' \
+            --val_root '' \
+            --epochs 500 \
+            --batch_size 256 \
+            --workers 3 \
+            --lr_mode 'cosine' \
+            --base_lr 0.1 \
+            --warmup_epochs 25 \
+            --warmup_lr 0.0 \
+            --targetlr 0.0 \
+            --momentum 0.9 \
+            --weight_decay 0.00005 \
+            --using_moving_average \
+            --last_gamma \
+            --print_freq 100 \
+            --evaluate \
+```
 
 
 ## Accuracy Results on COVID-19 Dataset
