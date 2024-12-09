@@ -65,33 +65,13 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 | Models |   |
 |-----------------------------------------------------------------------------------|----------------------------------------|
-| AlexNet | ConvNext  | 
-| DenseNet | EfficientNet |
-| Ghost-resnet | GhostNetv2 | 
-| Inception | MNASNet |
-| MobileNet | NFNet |
-| RegNet | ResNet |
-| ResNext | Wide-ResNet | 
-| ShuffleNetv2 | SqueezeNet |
-| VGG | |
-
-
- [AlexNet](Models/CNN_Models/AlexNet/)
-
-AlexNet
-ConvNext
-DenseNet
-EfficientNet
-Ghost-resnet
-GhostNetv2
-Inception
-MNASNet
-MobileNet
-NFNet
-RegNet
-ResNet
-ResNext | Wide-ResNet | ShuffleNetv2 | SqueezeNet  |
-| VGG | | | |
+| [AlexNet](Models/CNN_Models/AlexNet) | [ConvNext_family](Models/CNN_Models/ConvNext_family) |
+| [DenseNet_family](Models/CNN_Models/DenseNet_family) | [EfficientNet_family](Models/CNN_Models/EfficientNet_family) |
+| [GhostNet_family](Models/CNN_Models/GhostNet_family) | [Inception_Family](Models/CNN_Models/Inception_Family) |
+| [MNASNet_family](Models/CNN_Models/MNASNet_family) | [Mobilenet_family](Models/CNN_Models/Mobilenet_family) |
+| [NFNet_Family](Models/CNN_Models/NFNet_Family) | [RegNet_family](Models/CNN_Models/RegNet_family) |
+| [ResNet_family](Models/CNN_Models/ResNet_family) | [Shufflenet_family](Models/CNN_Models/Shufflenet_family) |
+| [Squeezenet_family](Models/CNN_Models/Squeezenet_family) | [Vgg_family](Models/CNN_Models/Vgg_family) |
 
 
 
