@@ -103,3 +103,7 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 | ResNet18          | 93.05                        | 170                           | 0.93                 | 170                   | 0.29               | 443                      |
 | EfficientNet-b2   | 93                           | 257                           | 0.93                 | 257                   | 0.27               | 26                       |
 | RegNet-y-16gf     | 93                           | 45                            | 0.93                 | 45                    | 0.31               | 11                       |
+
+
+
+## Computational Results on COVID-19 Dataset
