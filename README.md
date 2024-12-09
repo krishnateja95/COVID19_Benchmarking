@@ -113,8 +113,27 @@ Curate Dataset
 ├── Dataset
 │   ├── Train
 │   ├──   ├── Class 1
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
 │   ├──   ├── Class 2
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
+
 │   ├──   ├── Class 3
+│   ├──   ├──   ├── Image 1
+│   ├──   ├──   ├── Image 2
+│   ├──   ├──   ├── Image 3
+..
+..
+│   ├──   ├──   ├── Image n
 ..
 ..
 │   ├──   ├── Class n
