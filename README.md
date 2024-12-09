@@ -112,6 +112,12 @@ Curate Dataset
 ```bash
 ├── Dataset
 │   ├── Train
+│   ├──   ├── Class 1
+│   ├──   ├── Class 2
+│   ├──   ├── Class 3
+..
+..
+│   ├──   ├── Class n
 │   ├── Test
 │   ├── Val
 ```
