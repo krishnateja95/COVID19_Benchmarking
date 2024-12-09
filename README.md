@@ -15,12 +15,12 @@ We implemented CNN and ViT models in such a way a single model file contains the
 
 We referred to several open source repositories for [CNN](https://github.com/pytorch/vision/tree/main/torchvision/models) and [ViT](https://github.com/lucidrains/vit-pytorch) models 
 
-## Results
+## Results on COVID-19 Dataset
 
 
-| Model-Name | Best-Top-1 | Best-F1-score | Best-Loss | Best-Precision | Best-Recall | Best-FPR | Best-FNR | Best-MCC | MACs | FLOPS | Number-of-Parameters | CPU-latency | GPU-latency  |
+<!-- | Model-Name | Best-Top-1 | Best-F1-score | Best-Loss | Best-Precision | Best-Recall | Best-FPR | Best-FNR | Best-MCC | MACs | FLOPS | Number-of-Parameters | CPU-latency | GPU-latency  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ResNet18 |  |  |  |  |  |  |  | | |  |  |  |  |
+| ResNet18 |  |  |  |  |  |  |  | | |  |  |  |  | -->
 
 
 | Model    | Top-1 Accuracy (\%) | Top-1 Accuracy Epoch | Recall (\%) | Recall Epoch | Best Loss | Best Loss Epoch |
