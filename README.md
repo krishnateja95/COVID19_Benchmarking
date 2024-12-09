@@ -12,7 +12,7 @@ This repository is the official implementation of ["ConVision Benchmark"](https:
 ## Table of Contents
 
 - [About](#-about)
-- - [Citation](#-citation)
+- [Citation](#-citation)
 - [Features](#features)
 - [CNN Models](#cnn-models)
 - [ViT Models](#vit-models)
