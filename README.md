@@ -108,6 +108,14 @@ Install Requirements
 pip install -r requirements.txt 
 ```
 
+Curate Dataset
+```bash
+├── Dataset
+│   ├── Train
+│   ├── Test
+│   ├── Val
+```
+
 Example to run ***ResNet18*** from ***ResNet_family*** in ***CNN_Models***  
 ```bash
 python train/train.py \
