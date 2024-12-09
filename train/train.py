@@ -45,11 +45,11 @@ parser.add_argument('--using_bn', default=True, type=bool, help='Use batch norma
 
 parser.add_argument('--port', default=29500, type=int, help='port of server')
 
-parser.add_argument('--model_dir', type=str, default = '/work/arun/COVID19_research/train/model_checkpoints/')
+parser.add_argument('--model_dir', type=str, default = '')
 
-parser.add_argument('--train_root', type=str, default = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Train')
-parser.add_argument('--test_root', type=str, default  = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Test/')
-parser.add_argument('--val_root', type=str, default   = '/work/arun/COVID19_research/dataset/COVID_19_Classification/Val')
+parser.add_argument('--train_root', type=str, default = '')
+parser.add_argument('--test_root', type=str, default  = '')
+parser.add_argument('--val_root', type=str, default   = '')
 
 parser.add_argument('--epochs', default=500, type=int, help='Number of Epochs')
 parser.add_argument('--batch_size', default=256, type=int, help='Batch Size')
