@@ -65,11 +65,31 @@ We referred to several open source repositories for [CNN](https://github.com/pyt
 
 | Models |   |  |  |
 |-----------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------|------------------------------------------|
-| AlexNet | ConvNext  | DenseNet | EfficientNet |
+| AlexNet | ConvNext  | 
+| DenseNet | EfficientNet |
 | Ghost-resnet | GhostNetv2 | Inception | MNASNet |
 | MobileNet | NFNet             | RegNet | ResNet |
 | ResNext | Wide-ResNet | ShuffleNetv2 | SqueezeNet  |
 | VGG | | | |
+
+
+ [AlexNet](Models/CNN_Models/AlexNet/)
+
+AlexNet
+ConvNext
+DenseNet
+EfficientNet
+Ghost-resnet
+GhostNetv2
+Inception
+MNASNet
+MobileNet
+NFNet
+RegNet
+ResNet
+ResNext | Wide-ResNet | ShuffleNetv2 | SqueezeNet  |
+| VGG | | | |
+
 
 
 ## ViT Models
