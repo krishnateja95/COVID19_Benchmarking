@@ -108,7 +108,7 @@ Install Requirements
 pip install -r requirements.txt 
 ```
 
-Example to run ResNet18 from ResNet_family in CNN_Models  
+Example to run ***ResNet18*** from ***ResNet_family*** in ***CNN_Models***  
 ```bash
 python train/train.py \
             --model_name 'ResNet18' \
